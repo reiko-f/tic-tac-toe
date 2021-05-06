@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: gray;
+  background: lightyellow;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  color: salmon;
+  font-size: 3em;
+}
+
+#nums {
+  width: 70px;
+  height: 70px;
+  color: navy;
+  background: coral;
+  font-size: 30px;
+  text-align: center;
+}
+
+#game-board {
+  display: inline-block;
+}
+
+.grid-container {
+  display: grid;  
+  grid-template-columns: 100px 100px 100px;  
+  padding: 10px;
+}
+
+.grid-item {
+  display: inline-grid;
+  border: 3px solid turquoise;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#message-container {
+  color:cyan;  
+  font-size: 70px;
+  text-align: left;
+}
